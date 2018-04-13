@@ -1,0 +1,60 @@
+@import "~bootstrap/scss/bootstrap";
+
+.modal-dialog{
+    max-width: 960px;
+}
+
+a{
+    color: #303030;
+}
+a:hover{
+    color: #303030;
+}
+
+.form-control:focus{
+    border-color: none;
+    border: 1px solid #ced4da;
+    box-shadow: none;
+}
+
+ul{
+    list-style: none;
+    padding-left: 15px;
+}
+
+ul > li::before{
+    content: '-';
+    margin-left: -15px;
+    padding-right: 10px;
+}
+
+.custom-file-input:lang(en) ~ .custom-file-label::after {
+    content: "Выбрать";
+}
+
+.modal-content{
+    min-height: 768px;
+}
+
+#block{
+    height: 120px;
+}
+
+.bg-success{
+    background-color: #c1dcc8 !important;
+}
+.bg-danger{
+    background-color: #ead6d8 !important;
+}
+.bg-info{
+    background-color: #b1d1d6 !important;
+}
+.bg-warning{
+    background-color: #eae2c7 !important;
+}
+.bg-primary{
+    background-color: #ccdae8 !important;
+}
+.bg-secondary{
+    background-color: #c6e8e4 !important;
+}

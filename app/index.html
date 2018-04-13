@@ -1,0 +1,1295 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Basic page info -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bootstrap Template</title>
+
+    <!-- Website icon -->
+    <link rel="icon" type="image/png" href="http://placehold.it/20x20">
+    <!-- Apple Touch Icon -->
+    <link rel="apple-touch-icon" href="http://placehold.it/200x200">
+    
+    <!-- CSS includes -->
+    <link rel="stylesheet" href="../dist/css/app.css">
+
+    <!-- Meta information -->
+    <meta name="author" content="">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="robots" content="index, follow">
+
+    <!-- Social media (frontend only) -->
+    <meta property="og:site_name" content="" />
+    <meta property="og:title" content="" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="" />
+    <meta property="og:url" content="" />
+    <meta property="og:description" content="" />
+    <meta property="og:locale" content="en_US">
+</head>
+<body>
+    <div class="container-fluid bg-success p-0">
+        <div class="container py-5">
+            <form>
+                <h3>Информация по договору:</h3>
+                <div class="row mt-5 form-group">
+                    <div class="col">
+                        <label>Номер договора</label>
+                        <input type="text" class="form-control rounded-0" placeholder="Договор">
+                    </div>
+                    <div class="col">
+                        <label>Дата договора</label>
+                        <input type="date" class="form-control rounded-0">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label>Тип объекта</label>
+                    <select class="form-control rounded-0">
+                        <option>Не линейный</option>
+                        <option>Линейный</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label>Наименование объекта</label>
+                    <input type="text" class="form-control rounded-0" placeholder="Наименование объекта">
+                </div>
+                <div class="form-group">
+                    <label>Адрес объекта</label>
+                    <input type="text" class="form-control rounded-0" placeholder="Адрес объекта">
+                </div>
+                <div class="form-group">
+                    <label>Выберите услугу</label>
+                    <select class="form-control rounded-0">
+                        <option>Экспертиза ПД и РИИ</option>
+                        <option>Экспертиза ПД</option>
+                        <option>Экспертиза РИИ</option>
+                        <option>Анализ</option>>
+                    </select>
+                </div>
+            </form>
+    
+            <div class="py-5">
+                <h3>Согласие:</h3>
+                <ul class="mt-5">
+                    <li>Я подтверждаю, что вся предоставленная информация является достоверной и точной;</li>
+                    <li>Я несу ответственность в соответствии с действующим законодательством Российской Федерации за предоставление заведомо ложных или неполных сведений;</li>
+                    <li>Я выражаю свое соrласие на необходимое использование и обработку своих персональных данных, в том числе в информационных системах;
+                    </li>
+                    <li>Со сроками оказания государственной услуrи ознакомлен:</li>
+                </ul>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox">
+                    <label class="form-check-label text-danger">
+                        Я подтверждаю свое согласие со всеми вышеперечисленными пунктами*
+                    </label>
+                </div>
+            </div>
+        </div>
+    </div>
+
+        <!-- Экспертиза ПД и РИИ -->
+    <div class="container-fluid bg-danger p-0">
+        <div class="container py-5">
+            <h3>Список ИРД:</h3>
+            <p>
+                <em>Категория: Не линейные объекты</em> <br>
+                <em>Услуга: Экспертиза ПД и РИИ</em>
+            </p>
+            <div class="row mt-5">
+                <div class="col-6">
+                    <label>Техническое задание на ПД:</label>
+                </div>
+                <div class="col-6">
+                    <div class="custom-file ">
+                        <input type="file" class="custom-file-input" id="customFile">
+                        <label class="custom-file-label rounded-0" for="customFile">Выберите файл</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-6">
+                    <label>Техническое задание на ИИ:</label>
+                </div>
+                <div class="col-6">
+                    <div class="custom-file ">
+                        <input type="file" class="custom-file-input" id="customFile">
+                        <label class="custom-file-label rounded-0" for="customFile">Выберите файл</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-6">
+                    <label>Программа изысканий:</label>
+                </div>
+                <div class="col-6">
+                    <div class="custom-file ">
+                        <input type="file" class="custom-file-input" id="customFile">
+                        <label class="custom-file-label rounded-0" for="customFile">Выберите файл</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-6">
+                    <label>Акт приема передачи ПД и ИИ:</label>
+                </div>
+                <div class="col-6">
+                    <div class="custom-file ">
+                        <input type="file" class="custom-file-input" id="customFile">
+                        <label class="custom-file-label rounded-0" for="customFile">Выберите файл</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-6">
+                    <label>Выписки из СРО:</label>
+                </div>
+                <div class="col-6">
+                    <div class="custom-file ">
+                        <input type="file" class="custom-file-input" id="customFile">
+                        <label class="custom-file-label rounded-0" for="customFile">Выберите файл</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-6">
+                    <label>Выписки из проектных организаций:</label>
+                </div>
+                <div class="col-6">
+                    <div class="custom-file ">
+                        <input type="file" class="custom-file-input" id="customFile">
+                        <label class="custom-file-label rounded-0" for="customFile">Выберите файл</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-6">
+                    <label>Выписки из изыскательских организаций:</label>
+                </div>
+                <div class="col-6">
+                    <div class="custom-file ">
+                        <input type="file" class="custom-file-input" id="customFile">
+                        <label class="custom-file-label rounded-0" for="customFile">Выберите файл</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-6">
+                    <label>Документ подтверждающий полномочие заявителя:</label>
+                </div>
+                <div class="col-6">
+                    <div class="custom-file ">
+                        <input type="file" class="custom-file-input" id="customFile">
+                        <label class="custom-file-label rounded-0" for="customFile">Выберите файл</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-6">
+                    <label>Выписка из членов СРО технического заказчика:</label>
+                </div>
+                <div class="col-6">
+                    <div class="custom-file ">
+                        <input type="file" class="custom-file-input" id="customFile">
+                        <label class="custom-file-label rounded-0" for="customFile">Выберите файл</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-6">
+                    <label>Градостроительный план земельного участка:</label>
+                </div>
+                <div class="col-6">
+                    <div class="custom-file ">
+                        <input type="file" class="custom-file-input" id="customFile">
+                        <label class="custom-file-label rounded-0" for="customFile">Выберите файл</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-6">
+                    <label>Технические условия:</label>
+                </div>
+                <div class="col-6">
+                    <div class="custom-file ">
+                        <input type="file" class="custom-file-input" id="customFile">
+                        <label class="custom-file-label rounded-0" for="customFile">Выберите файл</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-6">
+                    <label>Иные документы:</label>
+                </div>
+                <div class="col-6">
+                    <div class="custom-file ">
+                        <input type="file" class="custom-file-input" id="customFile">
+                        <label class="custom-file-label rounded-0" for="customFile">Выберите файл</label>
+                    </div>
+                </div>
+            </div>
+    </div>
+
+        <!-- экспертиза ПД -->
+    <div class="container-fluid bg-info p-0">
+        <div class="container py-5">
+            <h3>Список ИРД:</h3>
+            <p>
+                <em>Категория: Не линейные объекты</em> <br>
+                <em>Услуга: Экспертиза ПД</em>
+            </p>
+            <div class="row mt-5">
+                <div class="col-6">
+                    <label>Техническое задание на ПД:</label>
+                </div>
+                <div class="col-6">
+                    <div class="custom-file ">
+                        <input type="file" class="custom-file-input" id="customFile">
+                        <label class="custom-file-label rounded-0" for="customFile">Выберите файл</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-6">
+                    <label>Акт приема передачи ПД:</label>
+                </div>
+                <div class="col-6">
+                    <div class="custom-file ">
+                        <input type="file" class="custom-file-input" id="customFile">
+                        <label class="custom-file-label rounded-0" for="customFile">Выберите файл</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-6">
+                    <label>Выписки из СРО:</label>
+                </div>
+                <div class="col-6">
+                    <div class="custom-file ">
+                        <input type="file" class="custom-file-input" id="customFile">
+                        <label class="custom-file-label rounded-0" for="customFile">Выберите файл</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-6">
+                    <label>Выписки из проектных организаций:</label>
+                </div>
+                <div class="col-6">
+                    <div class="custom-file ">
+                        <input type="file" class="custom-file-input" id="customFile">
+                        <label class="custom-file-label rounded-0" for="customFile">Выберите файл</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-6">
+                    <label>Документ подтверждающий полномочие заявителя:</label>
+                </div>
+                <div class="col-6">
+                    <div class="custom-file ">
+                        <input type="file" class="custom-file-input" id="customFile">
+                        <label class="custom-file-label rounded-0" for="customFile">Выберите файл</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-6">
+                    <label>Выписка из членов СРО технического заказчика:</label>
+                </div>
+                <div class="col-6">
+                    <div class="custom-file ">
+                        <input type="file" class="custom-file-input" id="customFile">
+                        <label class="custom-file-label rounded-0" for="customFile">Выберите файл</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-6">
+                    <label>Градостроительный план земельного участка:</label>
+                </div>
+                <div class="col-6">
+                    <div class="custom-file ">
+                        <input type="file" class="custom-file-input" id="customFile">
+                        <label class="custom-file-label rounded-0" for="customFile">Выберите файл</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-6">
+                    <label>Технические условия:</label>
+                </div>
+                <div class="col-6">
+                    <div class="custom-file ">
+                        <input type="file" class="custom-file-input" id="customFile">
+                        <label class="custom-file-label rounded-0" for="customFile">Выберите файл</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-6">
+                    <label>Иные документы:</label>
+                </div>
+                <div class="col-6">
+                    <div class="custom-file ">
+                        <input type="file" class="custom-file-input" id="customFile">
+                        <label class="custom-file-label rounded-0" for="customFile">Выберите файл</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+        <!-- экспертиза ИИ -->
+    <div class="container-fluid bg-warning p-0">
+        <div class="container py-5">
+            <h3>Список ИРД:</h3>
+            <p>
+                <em>Категория: Не линейные объекты</em> <br>
+                <em>Услуга: Экспертиза ИИ</em>
+            </p>
+            <div class="row mt-5">
+                <div class="col-6">
+                    <label>Техническое задание на ИИ:</label>
+                </div>
+                <div class="col-6">
+                    <div class="custom-file ">
+                        <input type="file" class="custom-file-input" id="customFile">
+                        <label class="custom-file-label rounded-0" for="customFile">Выберите файл</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-6">
+                    <label>Программа изысканий:</label>
+                </div>
+                <div class="col-6">
+                    <div class="custom-file ">
+                        <input type="file" class="custom-file-input" id="customFile">
+                        <label class="custom-file-label rounded-0" for="customFile">Выберите файл</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-6">
+                    <label>Акт приема передачи ИИ:</label>
+                </div>
+                <div class="col-6">
+                    <div class="custom-file ">
+                        <input type="file" class="custom-file-input" id="customFile">
+                        <label class="custom-file-label rounded-0" for="customFile">Выберите файл</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-6">
+                    <label>Выписка из СРО:</label>
+                </div>
+                <div class="col-6">
+                    <div class="custom-file ">
+                        <input type="file" class="custom-file-input" id="customFile">
+                        <label class="custom-file-label rounded-0" for="customFile">Выберите файл</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-6">
+                    <label>Выписка из изыскательских организаций:</label>
+                </div>
+                <div class="col-6">
+                    <div class="custom-file ">
+                        <input type="file" class="custom-file-input" id="customFile">
+                        <label class="custom-file-label rounded-0" for="customFile">Выберите файл</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-6">
+                    <label>Документ подтверждающий полномочие заявителя:</label>
+                </div>
+                <div class="col-6">
+                    <div class="custom-file ">
+                        <input type="file" class="custom-file-input" id="customFile">
+                        <label class="custom-file-label rounded-0" for="customFile">Выберите файл</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-6">
+                    <label>Выписка из членов СРО технического заказчика:</label>
+                </div>
+                <div class="col-6">
+                    <div class="custom-file ">
+                        <input type="file" class="custom-file-input" id="customFile">
+                        <label class="custom-file-label rounded-0" for="customFile">Выберите файл</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-6">
+                    <label>Иные документы:</label>
+                </div>
+                <div class="col-6">
+                    <div class="custom-file ">
+                        <input type="file" class="custom-file-input" id="customFile">
+                        <label class="custom-file-label rounded-0" for="customFile">Выберите файл</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+        <!-- Документы для экспертизы ИИ - Отчеты -->
+    <div class="container-fluid bg-primary p-0">
+        <div class="container py-5">
+            <h3>Отчеты ИИ:</h3>
+            <p>
+                <em>Категория: Не линейные объекты</em> <br>
+                <em>Услуга: Экспертиза ИИ</em>
+            </p>
+            <div class="row mt-5">
+                <div class="col-6">
+                    <label>Инженерно-геодезические изыскания:</label>
+                </div>
+                <div class="col-6">
+                    <div class="custom-file ">
+                        <input type="file" class="custom-file-input" id="customFile">
+                        <label class="custom-file-label rounded-0" for="customFile">Выберите файл</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-6">
+                    <label>Инженерно-геологические изыскания:</label>
+                </div>
+                <div class="col-6">
+                    <div class="custom-file ">
+                        <input type="file" class="custom-file-input" id="customFile">
+                        <label class="custom-file-label rounded-0" for="customFile">Выберите файл</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-6">
+                    <label>Инженерно-экологические изыскания:</label>
+                </div>
+                <div class="col-6">
+                    <div class="custom-file ">
+                        <input type="file" class="custom-file-input" id="customFile">
+                        <label class="custom-file-label rounded-0" for="customFile">Выберите файл</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-6">
+                    <label>Гидрометеорологические изыскания:</label>
+                </div>
+                <div class="col-6">
+                    <div class="custom-file ">
+                        <input type="file" class="custom-file-input" id="customFile">
+                        <label class="custom-file-label rounded-0" for="customFile">Выберите файл</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-6">
+                    <label>Иные:</label>
+                </div>
+                <div class="col-6">
+                    <div class="custom-file ">
+                        <input type="file" class="custom-file-input" id="customFile">
+                        <label class="custom-file-label rounded-0" for="customFile">Выберите файл</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+        <!-- Документы для экспертизы ПД - Состав ПД -->
+    <div class="container-fluid bg-secondary p-0">
+        <div class="container py-5">
+            <h3>Проектная документация:</h3>
+            <p>
+                <em>Категория: Не линейные объекты</em> <br>
+                <em>Услуга: Экспертиза ПД</em>
+            </p>
+            <div class="row mt-5">
+                <div class="col-6">
+                    <label>1. Пояснительная записка:</label>
+                </div>
+                <div class="col-6">
+                    <div class="custom-file ">
+                        <input type="file" class="custom-file-input" id="customFile">
+                        <label class="custom-file-label rounded-0" for="customFile">Выберите файл</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-6">
+                    <label>2. Схема планировочной организации земельного участка:</label>
+                </div>
+                <div class="col-6">
+                    <div class="custom-file ">
+                        <input type="file" class="custom-file-input" id="customFile">
+                        <label class="custom-file-label rounded-0" for="customFile">Выберите файл</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-6">
+                    <label>3. Архитектурные решения:</label>
+                </div>
+                <div class="col-6">
+                    <div class="custom-file ">
+                        <input type="file" class="custom-file-input" id="customFile">
+                        <label class="custom-file-label rounded-0" for="customFile">Выберите файл</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-6">
+                    <label>4. Конструктивные и объемно-планировочные решения:</label>
+                </div>
+                <div class="col-6">
+                    <div class="custom-file ">
+                        <input type="file" class="custom-file-input" id="customFile">
+                        <label class="custom-file-label rounded-0" for="customFile">Выберите файл</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-6">
+                    <label>5. сведения об инженерном оборудовании, о сетях инженерно-технического обеспечения, перечень инженерно-технических мероприятий, содержание технологических решений:</label>
+                </div>
+                <div class="col-6">
+                    <div class="custom-file ">
+                        <input type="file" class="custom-file-input" id="customFile">
+                        <label class="custom-file-label rounded-0" for="customFile">Выберите файл</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-6">
+                    <label>подраздел "Система электроснабжения":</label>
+                </div>
+                <div class="col-6">
+                    <div class="custom-file ">
+                        <input type="file" class="custom-file-input" id="customFile">
+                        <label class="custom-file-label rounded-0" for="customFile">Выберите файл</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-6">
+                    <label>подраздел "Система водоснабжения":</label>
+                </div>
+                <div class="col-6">
+                    <div class="custom-file ">
+                        <input type="file" class="custom-file-input" id="customFile">
+                        <label class="custom-file-label rounded-0" for="customFile">Выберите файл</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-6">
+                    <label>подраздел "Система водоотведения":</label>
+                </div>
+                <div class="col-6">
+                    <div class="custom-file ">
+                        <input type="file" class="custom-file-input" id="customFile">
+                        <label class="custom-file-label rounded-0" for="customFile">Выберите файл</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-6">
+                    <label>подраздел "Отопление, вентиляция и кондиционирование воздуха, тепловые сети":</label>
+                </div>
+                <div class="col-6">
+                    <div class="custom-file ">
+                        <input type="file" class="custom-file-input" id="customFile">
+                        <label class="custom-file-label rounded-0" for="customFile">Выберите файл</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-6">
+                    <label>подраздел "Сети связи":</label>
+                </div>
+                <div class="col-6">
+                    <div class="custom-file ">
+                        <input type="file" class="custom-file-input" id="customFile">
+                        <label class="custom-file-label rounded-0" for="customFile">Выберите файл</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-6">
+                    <label>подраздел "Система газоснабжения":</label>
+                </div>
+                <div class="col-6">
+                    <div class="custom-file ">
+                        <input type="file" class="custom-file-input" id="customFile">
+                        <label class="custom-file-label rounded-0" for="customFile">Выберите файл</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-6">
+                    <label>подраздел "Технологические решения":</label>
+                </div>
+                <div class="col-6">
+                    <div class="custom-file ">
+                        <input type="file" class="custom-file-input" id="customFile">
+                        <label class="custom-file-label rounded-0" for="customFile">Выберите файл</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-6">
+                    <label>6. Проект организации строительства объектов капитального строительства:</label>
+                </div>
+                <div class="col-6">
+                    <div class="custom-file ">
+                        <input type="file" class="custom-file-input" id="customFile">
+                        <label class="custom-file-label rounded-0" for="customFile">Выберите файл</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-6">
+                    <label>7. Проект организации работ по сносу или демонтажу:</label>
+                </div>
+                <div class="col-6">
+                    <div class="custom-file ">
+                        <input type="file" class="custom-file-input" id="customFile">
+                        <label class="custom-file-label rounded-0" for="customFile">Выберите файл</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-6">
+                    <label>8. Перечень мероприятий по охране окружающей среды:</label>
+                </div>
+                <div class="col-6">
+                    <div class="custom-file ">
+                        <input type="file" class="custom-file-input" id="customFile">
+                        <label class="custom-file-label rounded-0" for="customFile">Выберите файл</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-6">
+                    <label>9. Перечень мероприятий по обеспечению пожарной безопасности:</label>
+                </div>
+                <div class="col-6">
+                    <div class="custom-file ">
+                        <input type="file" class="custom-file-input" id="customFile">
+                        <label class="custom-file-label rounded-0" for="customFile">Выберите файл</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-6">
+                    <label>10. Перечень мероприятий по обеспечению доступа инвалидов:</label>
+                </div>
+                <div class="col-6">
+                    <div class="custom-file ">
+                        <input type="file" class="custom-file-input" id="customFile">
+                        <label class="custom-file-label rounded-0" for="customFile">Выберите файл</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-6">
+                    <label>10. Перечень мероприятий по обеспечению доступа инвалидов:</label>
+                </div>
+                <div class="col-6">
+                    <div class="custom-file ">
+                        <input type="file" class="custom-file-input" id="customFile">
+                        <label class="custom-file-label rounded-0" for="customFile">Выберите файл</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-6">
+                    <label>10.1. Требования к обеспечению безопасной эксплуатации объектов капитального строительства:</label>
+                </div>
+                <div class="col-6">
+                    <div class="custom-file ">
+                        <input type="file" class="custom-file-input" id="customFile">
+                        <label class="custom-file-label rounded-0" for="customFile">Выберите файл</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-6">
+                    <label>11. Смета на строительство:</label>
+                </div>
+                <div class="col-6">
+                    <div class="custom-file ">
+                        <input type="file" class="custom-file-input" id="customFile">
+                        <label class="custom-file-label rounded-0" for="customFile">Выберите файл</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-6">
+                    <label>11.1. Перечень мероприятий по обеспечению соблюдения требований энергетической эффективности и требований оснащенности зданий, строений, сооружений приборами учета используемых энергетических ресурсов:</label>
+                </div>
+                <div class="col-6">
+                    <div class="custom-file ">
+                        <input type="file" class="custom-file-input" id="customFile">
+                        <label class="custom-file-label rounded-0" for="customFile">Выберите файл</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-6">
+                    <label>11.2. Сведения о нормативной периодичности выполнения работ по капитальному ремонту многоквартирного дома, необходимых для обеспечения безопасной эксплуатации такого дома, об объеме и о составе указанных работ (в случае подготовки проектной документации для строительства, реконструкции многоквартирного дома):</label>
+                </div>
+                <div class="col-6">
+                    <div class="custom-file ">
+                        <input type="file" class="custom-file-input" id="customFile">
+                        <label class="custom-file-label rounded-0" for="customFile">Выберите файл</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-6">
+                    <label>12. Иная документация в случаях, предусмотренных федеральными законами.*48.12.12:</label>
+                </div>
+                <div class="col-6">
+                    <div class="custom-file ">
+                        <input type="file" class="custom-file-input" id="customFile">
+                        <label class="custom-file-label rounded-0" for="customFile">Выберите файл</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+        <!-- Экспертиза ПД и РИИ -->
+    <div class="container-fluid bg-success p-0">
+        <div class="container py-5">
+            <h3>Список ИРД:</h3>
+            <p>
+                <em>Категория: Линейные объекты</em> <br>
+                <em>Услуга: Экспертиза ПД и РИИ</em>
+            </p>
+            <div class="row mt-5">
+                <div class="col-6">
+                    <label>Техническое задание на ПД:</label>
+                </div>
+                <div class="col-6">
+                    <div class="custom-file ">
+                        <input type="file" class="custom-file-input" id="customFile">
+                        <label class="custom-file-label rounded-0" for="customFile">Выберите файл</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-6">
+                    <label>Техническое задание на ИИ:</label>
+                </div>
+                <div class="col-6">
+                    <div class="custom-file ">
+                        <input type="file" class="custom-file-input" id="customFile">
+                        <label class="custom-file-label rounded-0" for="customFile">Выберите файл</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-6">
+                    <label>Программа изысканий:</label>
+                </div>
+                <div class="col-6">
+                    <div class="custom-file ">
+                        <input type="file" class="custom-file-input" id="customFile">
+                        <label class="custom-file-label rounded-0" for="customFile">Выберите файл</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-6">
+                    <label>Акт приема передачи ПД и ИИ:</label>
+                </div>
+                <div class="col-6">
+                    <div class="custom-file ">
+                        <input type="file" class="custom-file-input" id="customFile">
+                        <label class="custom-file-label rounded-0" for="customFile">Выберите файл</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-6">
+                    <label>Выписки из СРО:</label>
+                </div>
+                <div class="col-6">
+                    <div class="custom-file ">
+                        <input type="file" class="custom-file-input" id="customFile">
+                        <label class="custom-file-label rounded-0" for="customFile">Выберите файл</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-6">
+                    <label>Выписки из проектных организаций:</label>
+                </div>
+                <div class="col-6">
+                    <div class="custom-file ">
+                        <input type="file" class="custom-file-input" id="customFile">
+                        <label class="custom-file-label rounded-0" for="customFile">Выберите файл</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-6">
+                    <label>Выписки из изыскательских организаций:</label>
+                </div>
+                <div class="col-6">
+                    <div class="custom-file ">
+                        <input type="file" class="custom-file-input" id="customFile">
+                        <label class="custom-file-label rounded-0" for="customFile">Выберите файл</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-6">
+                    <label>Документ подтверждающий полномочие заявителя:</label>
+                </div>
+                <div class="col-6">
+                    <div class="custom-file ">
+                        <input type="file" class="custom-file-input" id="customFile">
+                        <label class="custom-file-label rounded-0" for="customFile">Выберите файл</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-6">
+                    <label>Выписка из членов СРО технического заказчика:</label>
+                </div>
+                <div class="col-6">
+                    <div class="custom-file ">
+                        <input type="file" class="custom-file-input" id="customFile">
+                        <label class="custom-file-label rounded-0" for="customFile">Выберите файл</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-6">
+                    <label>Проект планировки и проект межевания территории:</label>
+                </div>
+                <div class="col-6">
+                    <div class="custom-file ">
+                        <input type="file" class="custom-file-input" id="customFile">
+                        <label class="custom-file-label rounded-0" for="customFile">Выберите файл</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-6">
+                    <label>Технические условия:</label>
+                </div>
+                <div class="col-6">
+                    <div class="custom-file ">
+                        <input type="file" class="custom-file-input" id="customFile">
+                        <label class="custom-file-label rounded-0" for="customFile">Выберите файл</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-6">
+                    <label>Иные документы:</label>
+                </div>
+                <div class="col-6">
+                    <div class="custom-file ">
+                        <input type="file" class="custom-file-input" id="customFile">
+                        <label class="custom-file-label rounded-0" for="customFile">Выберите файл</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+        <!-- экспертиза ПД -->
+    <div class="container-fluid bg-danger p-0">
+        <div class="container py-5">
+            <h3>Список ИРД:</h3>
+            <p>
+                <em>Категория: Линейные объекты</em> <br>
+                <em>Услуга: Экспертиза ПД</em>
+            </p>
+            <div class="row mt-5">
+                <div class="col-6">
+                    <label>Техническое задание на ПД:</label>
+                </div>
+                <div class="col-6">
+                    <div class="custom-file ">
+                        <input type="file" class="custom-file-input" id="customFile">
+                        <label class="custom-file-label rounded-0" for="customFile">Выберите файл</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-6">
+                    <label>Акт приема передачи ПД:</label>
+                </div>
+                <div class="col-6">
+                    <div class="custom-file ">
+                        <input type="file" class="custom-file-input" id="customFile">
+                        <label class="custom-file-label rounded-0" for="customFile">Выберите файл</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-6">
+                    <label>Выписки из СРО:</label>
+                </div>
+                <div class="col-6">
+                    <div class="custom-file ">
+                        <input type="file" class="custom-file-input" id="customFile">
+                        <label class="custom-file-label rounded-0" for="customFile">Выберите файл</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-6">
+                    <label>Выписки из проектных организаций:</label>
+                </div>
+                <div class="col-6">
+                    <div class="custom-file ">
+                        <input type="file" class="custom-file-input" id="customFile">
+                        <label class="custom-file-label rounded-0" for="customFile">Выберите файл</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-6">
+                    <label>Документ подтверждающий полномочие заявителя:</label>
+                </div>
+                <div class="col-6">
+                    <div class="custom-file ">
+                        <input type="file" class="custom-file-input" id="customFile">
+                        <label class="custom-file-label rounded-0" for="customFile">Выберите файл</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-6">
+                    <label>Выписка из членов СРО технического заказчика:</label>
+                </div>
+                <div class="col-6">
+                    <div class="custom-file ">
+                        <input type="file" class="custom-file-input" id="customFile">
+                        <label class="custom-file-label rounded-0" for="customFile">Выберите файл</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-6">
+                    <label>Проект планировки и проект межевания территории:</label>
+                </div>
+                <div class="col-6">
+                    <div class="custom-file ">
+                        <input type="file" class="custom-file-input" id="customFile">
+                        <label class="custom-file-label rounded-0" for="customFile">Выберите файл</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-6">
+                    <label>Технические условия:</label>
+                </div>
+                <div class="col-6">
+                    <div class="custom-file ">
+                        <input type="file" class="custom-file-input" id="customFile">
+                        <label class="custom-file-label rounded-0" for="customFile">Выберите файл</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-6">
+                    <label>Иные документы:</label>
+                </div>
+                <div class="col-6">
+                    <div class="custom-file ">
+                        <input type="file" class="custom-file-input" id="customFile">
+                        <label class="custom-file-label rounded-0" for="customFile">Выберите файл</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+        <!-- экспертиза ИИ -->
+    <div class="container-fluid bg-info p-0">
+        <div class="container py-5">
+            <h3>Список ИРД:</h3>
+            <p>
+                <em>Категория: Линейные объекты</em> <br>
+                <em>Услуга: Экспертиза ИИ</em>
+            </p>
+            <div class="row mt-5">
+                <div class="col-6">
+                    <label>Техническое задание на ИИ:</label>
+                </div>
+                <div class="col-6">
+                    <div class="custom-file ">
+                        <input type="file" class="custom-file-input" id="customFile">
+                        <label class="custom-file-label rounded-0" for="customFile">Выберите файл</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-6">
+                    <label>Программа изысканий:</label>
+                </div>
+                <div class="col-6">
+                    <div class="custom-file ">
+                        <input type="file" class="custom-file-input" id="customFile">
+                        <label class="custom-file-label rounded-0" for="customFile">Выберите файл</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-6">
+                    <label>Акт приема передачи ИИ:</label>
+                </div>
+                <div class="col-6">
+                    <div class="custom-file ">
+                        <input type="file" class="custom-file-input" id="customFile">
+                        <label class="custom-file-label rounded-0" for="customFile">Выберите файл</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-6">
+                    <label>Выписка из СРО:</label>
+                </div>
+                <div class="col-6">
+                    <div class="custom-file ">
+                        <input type="file" class="custom-file-input" id="customFile">
+                        <label class="custom-file-label rounded-0" for="customFile">Выберите файл</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-6">
+                    <label>Выписка из изыскательских организаций:</label>
+                </div>
+                <div class="col-6">
+                    <div class="custom-file ">
+                        <input type="file" class="custom-file-input" id="customFile">
+                        <label class="custom-file-label rounded-0" for="customFile">Выберите файл</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-6">
+                    <label>Документ подтверждающий полномочие заявителя:</label>
+                </div>
+                <div class="col-6">
+                    <div class="custom-file ">
+                        <input type="file" class="custom-file-input" id="customFile">
+                        <label class="custom-file-label rounded-0" for="customFile">Выберите файл</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-6">
+                    <label>Выписка из членов СРО технического заказчика:</label>
+                </div>
+                <div class="col-6">
+                    <div class="custom-file ">
+                        <input type="file" class="custom-file-input" id="customFile">
+                        <label class="custom-file-label rounded-0" for="customFile">Выберите файл</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-6">
+                    <label>Иные документы:</label>
+                </div>
+                <div class="col-6">
+                    <div class="custom-file ">
+                        <input type="file" class="custom-file-input" id="customFile">
+                        <label class="custom-file-label rounded-0" for="customFile">Выберите файл</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+        <!-- Документы для экспертизы ИИ - Отчеты -->
+    <div class="container-fluid bg-warning p-0">
+        <div class="container py-5">
+            <h3>Отчеты ИИ:</h3>
+            <p>
+                <em>Категория: Линейные объекты</em> <br>
+                <em>Услуга: Экспертиза ИИ</em>
+            </p>
+            <div class="row mt-5">
+                <div class="col-6">
+                    <label>Инженерно-геодезические изыскания:</label>
+                </div>
+                <div class="col-6">
+                    <div class="custom-file ">
+                        <input type="file" class="custom-file-input" id="customFile">
+                        <label class="custom-file-label rounded-0" for="customFile">Выберите файл</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-6">
+                    <label>Инженерно-геологические изыскания:</label>
+                </div>
+                <div class="col-6">
+                    <div class="custom-file ">
+                        <input type="file" class="custom-file-input" id="customFile">
+                        <label class="custom-file-label rounded-0" for="customFile">Выберите файл</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-6">
+                    <label>Инженерно-экологические изыскания:</label>
+                </div>
+                <div class="col-6">
+                    <div class="custom-file ">
+                        <input type="file" class="custom-file-input" id="customFile">
+                        <label class="custom-file-label rounded-0" for="customFile">Выберите файл</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-6">
+                    <label>Гидрометеорологические изыскания:</label>
+                </div>
+                <div class="col-6">
+                    <div class="custom-file ">
+                        <input type="file" class="custom-file-input" id="customFile">
+                        <label class="custom-file-label rounded-0" for="customFile">Выберите файл</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-6">
+                    <label>Иные:</label>
+                </div>
+                <div class="col-6">
+                    <div class="custom-file ">
+                        <input type="file" class="custom-file-input" id="customFile">
+                        <label class="custom-file-label rounded-0" for="customFile">Выберите файл</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+        <!-- Документы для экспертизы ПД - Состав ПД -->
+    <div class="container-fluid bg-primary p-0">
+        <div class="container py-5">
+            <h3>Проектная документация:</h3>
+            <p>
+                <em>Категория: Линейные объекты</em> <br>
+                <em>Услуга: Экспертиза ПД</em>
+            </p>
+            <div class="row mt-5">
+                <div class="col-6">
+                    <label>1. Пояснительная записка:</label>
+                </div>
+                <div class="col-6">
+                    <div class="custom-file ">
+                        <input type="file" class="custom-file-input" id="customFile">
+                        <label class="custom-file-label rounded-0" for="customFile">Выберите файл</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-6">
+                    <label>2. Проект полосы отвода:</label>
+                </div>
+                <div class="col-6">
+                    <div class="custom-file ">
+                        <input type="file" class="custom-file-input" id="customFile">
+                        <label class="custom-file-label rounded-0" for="customFile">Выберите файл</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-6">
+                    <label>3. Технологические и конструктивные решения линейного объекта. Искусственные сооружения:</label>
+                </div>
+                <div class="col-6">
+                    <div class="custom-file ">
+                        <input type="file" class="custom-file-input" id="customFile">
+                        <label class="custom-file-label rounded-0" for="customFile">Выберите файл</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-6">
+                    <label>4. Здания, строения, сооружения, входящие в инфраструктуру линейного объекта:</label>
+                </div>
+                <div class="col-6">
+                    <div class="custom-file ">
+                        <input type="file" class="custom-file-input" id="customFile">
+                        <label class="custom-file-label rounded-0" for="customFile">Выберите файл</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-6">
+                    <label>5. Проект организации строительства:</label>
+                </div>
+                <div class="col-6">
+                    <div class="custom-file ">
+                        <input type="file" class="custom-file-input" id="customFile">
+                        <label class="custom-file-label rounded-0" for="customFile">Выберите файл</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-6">
+                    <label>6. Проект организации работ по сносу или демонтажу объектов капитального строительства:</label>
+                </div>
+                <div class="col-6">
+                    <div class="custom-file ">
+                        <input type="file" class="custom-file-input" id="customFile">
+                        <label class="custom-file-label rounded-0" for="customFile">Выберите файл</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-6">
+                    <label>7. Перечень мероприятий по охране окружающей среды:</label>
+                </div>
+                <div class="col-6">
+                    <div class="custom-file ">
+                        <input type="file" class="custom-file-input" id="customFile">
+                        <label class="custom-file-label rounded-0" for="customFile">Выберите файл</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-6">
+                    <label>8. Мероприятия по обеспечению пожарной безопасности:</label>
+                </div>
+                <div class="col-6">
+                    <div class="custom-file ">
+                        <input type="file" class="custom-file-input" id="customFile">
+                        <label class="custom-file-label rounded-0" for="customFile">Выберите файл</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- JavaScript includes -->
+    <script src="../dist/js/app.js"></script>
+</body>
+</html>
